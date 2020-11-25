@@ -1,0 +1,18 @@
+html {
+  background-color: azure;
+}
+
+.link {
+  background-color: rgb(219, 226, 225);
+  display: flex;
+  /* column
+フレックスコンテナの主軸は上から下になります。正確に言うと現在のブロック軸の方向と同じになります。 */
+  flex-direction: column;
+  align-items: center;
+}
+
+/* .saisyo_button {
+  background-color: rgba(223, 128, 215, 0.658);
+  border-radius: 10px;
+  text-align: center;
+} */
