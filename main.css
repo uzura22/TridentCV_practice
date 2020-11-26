@@ -10,7 +10,7 @@ html {
   background-color: rgb(219, 226, 225);
   display: flex;
   flex-direction: column;
-  /* 「flex-direction」プロパティは、flexコンテナの主軸の方向を設定することにより、flexアイテムがflexコンテナでどのように配置されるか明示します。方向は2種類で、横列の水平、縦列の垂直に配置できます。 */
+
   /* flex-direction: column; 上から下へ垂直方向に配置。 */
   /* https://coliss.com/articles/build-websites/operation/css/css3-flexbox-properties-by-scotch.html */
   align-items: center;
@@ -28,3 +28,25 @@ a {
 /* line-heightとは
 line-heightプロパティを使用すると、文章の行間の広さを設定することができます。 */
 /* https://techacademy.jp/magazine/8615 */
+
+#profile_layout,
+#sikaku_layout,
+#preview_layout {
+  text-align: center;
+}
+/* テキスト中央配置 */
+/* https://www.w3.org/Style/Examples/007/center.ja.html */
+
+/* #profile_layout {
+  display: none;
+}
+#sikaku_layout {
+  display: none;
+}
+
+#preview_layout {
+  display: none;
+} */
+
+/* display: none; 非表示 */
+/* https://allabout.co.jp/gm/gc/23973/#aa23973display */
