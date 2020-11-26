@@ -2,13 +2,22 @@ html {
   background-color: azure;
 }
 
+.midashi {
+  color: rgba(13, 196, 187, 0.918);
+}
+
 .link {
   background-color: rgb(219, 226, 225);
   display: flex;
-  /* column
-フレックスコンテナの主軸は上から下になります。正確に言うと現在のブロック軸の方向と同じになります。 */
   flex-direction: column;
+  /* 「flex-direction」プロパティは、flexコンテナの主軸の方向を設定することにより、flexアイテムがflexコンテナでどのように配置されるか明示します。方向は2種類で、横列の水平、縦列の垂直に配置できます。 */
+  /* flex-direction: column; 上から下へ垂直方向に配置。 */
+  /* https://coliss.com/articles/build-websites/operation/css/css3-flexbox-properties-by-scotch.html */
   align-items: center;
+}
+
+a {
+  font-size: 20px;
 }
 
 /* .saisyo_button {
