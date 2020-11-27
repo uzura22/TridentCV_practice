@@ -1,6 +1,10 @@
-function hyouji(){
-var link=document.getElementById('profile_layout');
-link.style.display = '';
+'use strict';
+
+function hyouji() {
+    var now_layout = document.getElementById('profile_layout');
+    now_layout.style.display = 'none';
+    var next_layout = document.getElementById('sikaku_layout');
+    next_layout.style.display = 'block';
 }
 
 // getElementByIdとは、指定したid値を持つ要素をElementオブジェクトとして返すメソッドです。
