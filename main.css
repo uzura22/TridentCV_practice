@@ -2,6 +2,7 @@ html {
   background-color: azure;
 }
 
+/* ★ hp.html */
 .midashi {
   color: rgba(13, 196, 187, 0.918);
 }
@@ -20,6 +21,8 @@ a {
   font-size: 20px;
 }
 
+/* ★ rirekisyo.html */
+
 .preview_card,
 .sikaku_card,
 .profile_card {
@@ -28,6 +31,12 @@ a {
 /* line-heightとは
 line-heightプロパティを使用すると、文章の行間の広さを設定することができます。 */
 /* https://techacademy.jp/magazine/8615 */
+
+/* .profile_card {
+  width: 500px;
+  height: 600px;
+  margin: auto;
+} */
 
 #profile_layout,
 #sikaku_layout,
@@ -50,3 +59,15 @@ line-heightプロパティを使用すると、文章の行間の広さを設定
 
 /* display: none; 非表示 */
 /* https://allabout.co.jp/gm/gc/23973/#aa23973display */
+
+.button {
+  display: flex;
+  justify-content: space-between;
+}
+/* ボタン両端揃え */
+/*https://maku77.github.io/web/layout/images-at-both-ends.html  */
+
+.before_button,
+.next_button {
+  font-size: 25px;
+}
