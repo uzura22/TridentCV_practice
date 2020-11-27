@@ -1,6 +1,13 @@
 'use strict';
 
-function hyouji() {
+function before() {
+    var now_layout = document.getElementById('sikaku_layout');
+    now_layout.style.display = 'none';
+    var next_layout = document.getElementById('profile_layout');
+    next_layout.style.display = 'block';
+}
+
+function next() {
     var now_layout = document.getElementById('profile_layout');
     now_layout.style.display = 'none';
     var next_layout = document.getElementById('sikaku_layout');
