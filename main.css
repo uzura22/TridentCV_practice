@@ -8,7 +8,7 @@ html {
 }
 
 .link {
-  background-color: rgb(219, 226, 225);
+  background-color: rgb(243, 240, 240);
   display: flex;
   flex-direction: column;
 
@@ -19,14 +19,24 @@ html {
 
 a {
   font-size: 20px;
+  text-decoration: none;
+  /* 下線を消す */
+  /* https://webliker.info/04303/ */
 }
 
 /* ★ rirekisyo.html */
 
+.card {
+  /* margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px; */
+  background-color: rgb(243, 240, 240);
+}
+
 .preview_card,
 .sikaku_card,
 .profile_card {
-  line-height: 400px;
+  /* line-height: 400px; */
 }
 /* line-heightとは
 line-heightプロパティを使用すると、文章の行間の広さを設定することができます。 */
@@ -70,4 +80,11 @@ line-heightプロパティを使用すると、文章の行間の広さを設定
 .before_button,
 .next_button {
   font-size: 25px;
+  color: white;
+  background-color: #eb6100;
+  border-radius: 5px;
+  border: none;
 }
+/* border: none 枠線を消す */
+/* border-radius 角を丸くする */
+/* https://jajaaan.co.jp/css/button/ */
