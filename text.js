@@ -7,12 +7,16 @@ function before() {
     next_layout.style.display = 'block';
 }
 
+// 「前へ」ボタンを押したとき
+
 function next() {
     var now_layout = document.getElementById('profile_layout');
     now_layout.style.display = 'none';
     var next_layout = document.getElementById('sikaku_layout');
     next_layout.style.display = 'block';
 }
+
+// 「次へ」ボタンを押したとき
 
 // getElementByIdとは、指定したid値を持つ要素をElementオブジェクトとして返すメソッドです。
 
