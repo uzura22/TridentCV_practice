@@ -1,18 +1,18 @@
 'use strict';
 
 function before() {
-    var now_layout = document.getElementById('sikaku_layout');
+    var now_layout = document.getElementById('rennrakusaki_card');
     now_layout.style.display = 'none';
-    var next_layout = document.getElementById('profile_layout');
+    var next_layout = document.getElementById('profile_card');
     next_layout.style.display = 'block';
 }
 
 // 「前へ」ボタンを押したとき
 
 function next() {
-    var now_layout = document.getElementById('profile_layout');
+    var now_layout = document.getElementById('profile_card');
     now_layout.style.display = 'none';
-    var next_layout = document.getElementById('sikaku_layout');
+    var next_layout = document.getElementById('rennrakusaki_card');
     next_layout.style.display = 'block';
 }
 
