@@ -69,13 +69,17 @@ a {
   margin-left: 100px;
   margin-right: 100px; */
   background-color: rgb(243, 240, 240);
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 50px;
 }
 
-#preview_card,
+/* #preview_card,
 #shikaku_card,
 #profile_card {
   /* line-height: 400px; */
-}
+/* } */
 /* line-heightとは
 line-heightプロパティを使用すると、文章の行間の広さを設定することができます。 */
 /* https://techacademy.jp/magazine/8615 */
@@ -89,6 +93,7 @@ line-heightプロパティを使用すると、文章の行間の広さを設定
 .profile_layout,
 .juusho_layout,
 .rennrakusaki_layout,
+.bikou_layout,
 .shikaku_layout,
 .preview_layout {
   text-align: center;
@@ -113,6 +118,10 @@ line-heightプロパティを使用すると、文章の行間の広さを設定
 }
 
 #preview_card {
+  display: none;
+}
+
+#bikou_card {
   display: none;
 }
 
@@ -148,13 +157,18 @@ line-heightプロパティを使用すると、文章の行間の広さを設定
 
   margin-top: 20px;
 }
+
+.preview_shift {
+  text-align: center;
+}
 /* border: none 枠線を消す */
 /* border-radius 角を丸くする */
 /* https://jajaaan.co.jp/css/button/ */
 
 input {
   font-size: 20px;
-  margin: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 input[type="number"] {
@@ -169,3 +183,6 @@ input::-webkit-outer-spin-button {
   -moz-appearance: textfield;
 }
 /* input type=number のスピンボタンを削除 */
+
+/* input[type="textarea"] {
+} */
